@@ -41,6 +41,9 @@ body {
 
 .close-btn {
   cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 .popup1_header p {
@@ -133,7 +136,7 @@ body {
   font-size: 16px;
   transition: .3s ease-in-out;
   cursor: pointer;
-  color: #fff;
+  color: var(--color1);
   font-weight: 500;
   line-height: 1.5;
 }
